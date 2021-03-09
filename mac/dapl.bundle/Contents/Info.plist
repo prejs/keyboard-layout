@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>dk.prejs.keyboardlayout.dapl</string>
+	<key>CFBundleName</key>
+	<string>dapl</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>KLInfo_Danish Polish Colemak</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>dk.prejs.keyboardlayout.dapl.danishpolishcolemak</string>
+		<key>TISIntendedLanguage</key>
+		<string>mul-150</string>
+	</dict>
+	<key>KLInfo_Danish Polish International</key>
+	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISInputSourceID</key>
+		<string>dk.prejs.keyboardlayout.dapl.danishpolishinternational</string>
+		<key>TISIntendedLanguage</key>
+		<string>mul-150</string>
+	</dict>
+</dict>
+</plist>
