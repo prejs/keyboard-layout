@@ -1,0 +1,552 @@
+<svg fill="none" viewBox="0 0 420 135" width="420" height="135" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+        <div xmlns="http://www.w3.org/1999/xhtml">
+            <style>
+                #keyboard {
+                    font-family: Arial, sans-serif;
+                    margin-top: 0px;
+                    margin-bottom: 0px
+                }
+                #keyboard #keyboard-bg {
+                    position: inherit;
+                    border: solid 1px #ddd;
+                    padding: 6px;
+                    box-sizing: content-box;
+                    border-radius: 4px;
+                    min-width: 28px;
+                    min-height: 28px
+                }
+                #keyboard #keyboard-bg {
+                    width: 406px;
+                    height: 121px;
+                    background-color: rgb(238, 238, 238);
+                }
+                #keyboard-bg div,
+                #keyboard-bg label {
+                    position: absolute;
+                    border-color: #000;
+                    box-sizing: border-box;
+                    background-clip: padding-box
+                }
+                .kl>div {
+                    display: table-cell;
+                    position: static !important;
+                    width: 28px;
+                    height: 28px;
+                    max-width: 28px;
+                }
+                .kl4>div {
+                    text-align: center;
+                    vertical-align: middle
+                }
+                .kl.ts4 {
+                    font-size: 10px;
+                    line-height: 1em
+                }
+                .kb {
+                    border-radius: 4px;
+                    border: 1px solid black;
+                    background-color: rgb(252, 252, 252);
+                    width: 28px;
+                    height: 28px;
+                    display: block;
+                }
+                .kr2 .kb {
+                    top: 0px
+                }
+                .kr3 .kb {
+                    top: 27px
+                }
+                .kr4 .kb {
+                    top: 54px
+                }
+                .kr5 .kb {
+                    top: 81px
+                }
+                .kr6 .kb {
+                    top: 93px
+                }
+
+                .en .kb#a {
+                    background-color: hsl(117,50%,50%);
+                }
+                .en .kb#b {
+                    background-color: hsl(218,50%,50%);
+                }
+                .en .kb#c {
+                    background-color: hsl(198,50%,50%);
+                }
+                .en .kb#d {
+                    background-color: hsl(176,50%,50%);
+                }
+                .en .kb#e {
+                    background-color: hsl(49,50%,50%);
+                }
+                .en .kb#f {
+                    background-color: hsl(207,50%,50%);
+                }
+                .en .kb#g {
+                    background-color: hsl(210,50%,50%);
+                }
+                .en .kb#h {
+                    background-color: hsl(149,50%,50%);
+                }
+                .en .kb#i {
+                    background-color: hsl(136,50%,50%);
+                }
+                .en .kb#j {
+                    background-color: hsl(238,50%,50%);
+                }
+                .en .kb#k {
+                    background-color: hsl(228,50%,50%);
+                }
+                .en .kb#l {
+                    background-color: hsl(180,50%,50%);
+                }
+                .en .kb#m {
+                    background-color: hsl(204,50%,50%);
+                }
+                .en .kb#n {
+                    background-color: hsl(139,50%,50%);
+                }
+                .en .kb#o {
+                    background-color: hsl(127,50%,50%);
+                }
+                .en .kb#p {
+                    background-color: hsl(211,50%,50%);
+                }
+                .en .kb#q {
+                    background-color: hsl(239,50%,50%);
+                }
+                .en .kb#r {
+                    background-color: hsl(150,50%,50%);
+                }
+                .en .kb#s {
+                    background-color: hsl(91,50%,50%);
+                }
+                .en .kb#t {
+                    background-color: hsl(104,50%,50%);
+                }
+                .en .kb#u {
+                    background-color: hsl(199,50%,50%);
+                }
+                .en .kb#v {
+                    background-color: hsl(225,50%,50%);
+                }
+                .en .kb#w {
+                    background-color: hsl(205,50%,50%);
+                }
+                .en .kb#x {
+                    background-color: hsl(238,50%,50%);
+                }
+                .en .kb#y {
+                    background-color: hsl(210,50%,50%);
+                }
+                .en .kb#z {
+                    background-color: hsl(239,50%,50%);
+                }
+                .da .kb#a {
+                    background-color: hsl(150,50%,50%);
+                }
+                .da .kb#aa {
+                    background-color: hsl(222,50%,50%);
+                }
+                .da .kb#ae {
+                    background-color: hsl(227,50%,50%);
+                }
+                .da .kb#alt {
+                    background-color: hsl(195,50%,50%);
+                }
+                .da .kb#b {
+                    background-color: hsl(210,50%,50%);
+                }
+                .da .kb#c {
+                    background-color: hsl(232,50%,50%);
+                }
+                .da .kb#d {
+                    background-color: hsl(152,50%,50%);
+                }
+                .da .kb#e {
+                    background-color: hsl(8,50%,50%);
+                }
+                .da .kb#f {
+                    background-color: hsl(204,50%,50%);
+                }
+                .da .kb#g {
+                    background-color: hsl(179,50%,50%);
+                }
+                .da .kb#h {
+                    background-color: hsl(216,50%,50%);
+                }
+                .da .kb#i {
+                    background-color: hsl(150,50%,50%);
+                }
+                .da .kb#j {
+                    background-color: hsl(229,50%,50%);
+                }
+                .da .kb#k {
+                    background-color: hsl(189,50%,50%);
+                }
+                .da .kb#l {
+                    background-color: hsl(162,50%,50%);
+                }
+                .da .kb#m {
+                    background-color: hsl(191,50%,50%);
+                }
+                .da .kb#n {
+                    background-color: hsl(131,50%,50%);
+                }
+                .da .kb#o {
+                    background-color: hsl(170,50%,50%);
+                }
+                .da .kb#oe {
+                    background-color: hsl(226,50%,50%);
+                }
+                .da .kb#p {
+                    background-color: hsl(214,50%,50%);
+                }
+                .da .kb#q {
+                    background-color: hsl(240,50%,50%);
+                }
+                .da .kb#r {
+                    background-color: hsl(106,50%,50%);
+                }
+                .da .kb#s {
+                    background-color: hsl(153,50%,50%);
+                }
+                .da .kb#t {
+                    background-color: hsl(137,50%,50%);
+                }
+                .da .kb#u {
+                    background-color: hsl(210,50%,50%);
+                }
+                .da .kb#v {
+                    background-color: hsl(205,50%,50%);
+                }
+                .da .kb#w {
+                    background-color: hsl(239,50%,50%);
+                }
+                .da .kb#x {
+                    background-color: hsl(240,50%,50%);
+                }
+                .da .kb#y {
+                    background-color: hsl(230,50%,50%);
+                }
+                .da .kb#z {
+                    background-color: hsl(239,50%,50%);
+                }
+                .pl .kb#a {
+                    background-color: hsl(92,50%,50%);
+                }
+                .pl .kb#alt {
+                    background-color: hsl(136,50%,50%);
+                }
+                .pl .kb#b {
+                    background-color: hsl(218,50%,50%);
+                }
+                .pl .kb#c {
+                    background-color: hsl(175,50%,50%);
+                }
+                .pl .kb#d {
+                    background-color: hsl(191,50%,50%);
+                }
+                .pl .kb#e {
+                    background-color: hsl(108,50%,50%);
+                }
+                .pl .kb#f {
+                    background-color: hsl(236,50%,50%);
+                }
+                .pl .kb#g {
+                    background-color: hsl(219,50%,50%);
+                }
+                .pl .kb#h {
+                    background-color: hsl(224,50%,50%);
+                }
+                .pl .kb#i {
+                    background-color: hsl(117,50%,50%);
+                }
+                .pl .kb#j {
+                    background-color: hsl(206,50%,50%);
+                }
+                .pl .kb#k {
+                    background-color: hsl(187,50%,50%);
+                }
+                .pl .kb#l {
+                    background-color: hsl(181,50%,50%);
+                }
+                .pl .kb#m {
+                    background-color: hsl(198,50%,50%);
+                }
+                .pl .kb#n {
+                    background-color: hsl(154,50%,50%);
+                }
+                .pl .kb#o {
+                    background-color: hsl(111,50%,50%);
+                }
+                .pl .kb#p {
+                    background-color: hsl(193,50%,50%);
+                }
+                .pl .kb#q {
+                    background-color: hsl(238,50%,50%);
+                }
+                .pl .kb#r {
+                    background-color: hsl(170,50%,50%);
+                }
+                .pl .kb#s {
+                    background-color: hsl(165,50%,50%);
+                }
+                .pl .kb#t {
+                    background-color: hsl(180,50%,50%);
+                }
+                .pl .kb#u {
+                    background-color: hsl(203,50%,50%);
+                }
+                .pl .kb#v {
+                    background-color: hsl(239,50%,50%);
+                }
+                .pl .kb#w {
+                    background-color: hsl(170,50%,50%);
+                }
+                .pl .kb#x {
+                    background-color: hsl(239,50%,50%);
+                }
+                .pl .kb#y {
+                    background-color: hsl(184,50%,50%);
+                }
+                .pl .kb#z {
+                    background-color: hsl(143,50%,50%);
+                }
+            </style>
+
+            <div id="keyboard">
+                <div id="keyboard-bg" class="da">                      
+                    <!-- QWERTYUIOP -->
+                    <div class="kr2">
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 0px;width:41px;"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="q" style="left: 40px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="w" style="left: 67px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="e" style="left: 94px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="r" style="left: 121px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="t" style="left: 148px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="y" style="left: 175px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="u" style="left: 202px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="i" style="left: 229px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="o" style="left: 256px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="p" style="left: 283px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="aa" style="left: 310px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 337px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 371px;width:35px;height:56px"></div>
+                                <div class="kb" style="left: 364px;top:0px;width:42px;height: 27px"></div>
+                                <div class="kb"
+                                    style="border-radius: 5px; left: 372px; top: 1px; width: 33px; height: 54px; border-style: none">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ASDFGHJKL -->
+                    <div class="kr3">
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 0px;width:48px;"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="a" style="left: 47px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="s" style="left: 74px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="d" style="left: 101px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="f" style="left: 128px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="g" style="left: 155px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="h" style="left: 182px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="j" style="left: 209px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="k" style="left: 236px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="l" style="left: 263px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="ae" style="left: 290px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="oe" style="left: 317px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 344px"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ZXCVBNM -->
+                    <div class="kr4">
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left:0px;width:34px;"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left:  33px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="z" style="left: 60px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="x" style="left: 87px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="c" style="left: 114px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="v" style="left: 141px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="b" style="left: 168px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="n" style="left: 195px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" id="m" style="left: 222px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 249px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 276px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 303px"></div>
+                            </div>
+                        </div>
+                        <div class="key">
+                            <div class="kc">
+                                <div class="kb" style="left: 330px;width:76px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Ctrl Alt Space -->
+                    <div class="kr6">
+                        <div class="key">
+                            <div class="kc high">
+                                <div class="kb" id="alt" style="left: 0px;">
+                                    <div class="kl kl4 ts4">
+                                        <div>Alt</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- kbd-bg -->
+            </div>
+        </div>
+    </foreignObject>
+</svg>
