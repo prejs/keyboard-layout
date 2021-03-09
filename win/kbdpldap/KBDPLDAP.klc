@@ -1,14 +1,14 @@
-KBD	KBDDAPLP	"Danish & Polish (Programmers)"
+KBD	KBDPLDAP	"Polish & Danish (Programmers)"
 
 COPYRIGHT	"(c) 2021 prejs"
 
 COMPANY	"prejs"
 
-LOCALENAME	"da-DK"
+LOCALENAME	"pl-PL"
 
-LOCALEID	"00000406"
+LOCALEID	"00000415"
 
-VERSION	1.0
+VERSION	1.1
 
 SHIFTSTATE
 
@@ -28,7 +28,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 04	3		0	3	0023	-1	00a3	-1		// DIGIT THREE, NUMBER SIGN, <none>, POUND SIGN, <none>
 05	4		0	4	0024	-1	00a4	-1		// DIGIT FOUR, DOLLAR SIGN, <none>, CURRENCY SIGN, <none>
 06	5		0	5	0025	-1	20ac	-1		// DIGIT FIVE, PERCENT SIGN, <none>, EURO SIGN, <none>
-07	6		0	6	005e	-1	00bc	-1		// DIGIT SIX, CIRCUMFLEX ACCENT, <none>, VULGAR FRACTION ONE QUARTER, <none>
+07	6		0	6	005e	-1	00bc	005e@		// DIGIT SIX, CIRCUMFLEX ACCENT, <none>, VULGAR FRACTION ONE QUARTER, CIRCUMFLEX ACCENT
 08	7		0	7	0026	-1	00bd	-1		// DIGIT SEVEN, AMPERSAND, <none>, VULGAR FRACTION ONE HALF, <none>
 09	8		0	8	002a	-1	00be	-1		// DIGIT EIGHT, ASTERISK, <none>, VULGAR FRACTION THREE QUARTERS, <none>
 0a	9		0	9	0028	-1	-1	-1		// DIGIT NINE, LEFT PARENTHESIS, <none>, <none>, <none>
@@ -58,7 +58,7 @@ LAYOUT		;an extra '@' at the end is a dead key
 26	L		5	l	L	-1	0142	0141		// LATIN SMALL LETTER L, LATIN CAPITAL LETTER L, <none>, LATIN SMALL LETTER L WITH STROKE, LATIN CAPITAL LETTER L WITH STROKE
 27	OEM_1		4	003b	003a	001d	00e6	00c6		// SEMICOLON, COLON, INFORMATION SEPARATOR THREE, LATIN SMALL LETTER AE, LATIN CAPITAL LETTER AE
 28	OEM_7		4	0027	0022	-1	00f8	00d8		// APOSTROPHE, QUOTATION MARK, <none>, LATIN SMALL LETTER O WITH STROKE, LATIN CAPITAL LETTER O WITH STROKE
-29	OEM_3		0	0060	007e	-1	-1	-1		// GRAVE ACCENT, TILDE, <none>, <none>, <none>
+29	OEM_3		0	0060@	007e	-1	00b4@	007e@		// GRAVE ACCENT, TILDE, <none>, ACUTE ACCENT, TILDE
 2b	OEM_5		0	005c	007c	001c	-1	-1		// REVERSE SOLIDUS, VERTICAL LINE, INFORMATION SEPARATOR FOUR, <none>, <none>
 2c	Z		5	z	Z	-1	017c	017b		// LATIN SMALL LETTER Z, LATIN CAPITAL LETTER Z, <none>, LATIN SMALL LETTER Z WITH DOT ABOVE, LATIN CAPITAL LETTER Z WITH DOT ABOVE
 2d	X		5	x	X	-1	017a	0179		// LATIN SMALL LETTER X, LATIN CAPITAL LETTER X, <none>, LATIN SMALL LETTER Z WITH ACUTE, LATIN CAPITAL LETTER Z WITH ACUTE
@@ -68,11 +68,81 @@ LAYOUT		;an extra '@' at the end is a dead key
 31	N		5	n	N	-1	0144	0143		// LATIN SMALL LETTER N, LATIN CAPITAL LETTER N, <none>, LATIN SMALL LETTER N WITH ACUTE, LATIN CAPITAL LETTER N WITH ACUTE
 32	M		1	m	M	-1	-1	-1		// LATIN SMALL LETTER M, LATIN CAPITAL LETTER M, <none>, <none>, <none>
 33	OEM_COMMA	0	002c	003c	-1	-1	-1		// COMMA, LESS-THAN SIGN, <none>, <none>, <none>
-34	OEM_PERIOD	0	002e	003e	-1	-1	-1		// FULL STOP, GREATER-THAN SIGN, <none>, <none>, <none>
+34	OEM_PERIOD	0	002e	003e	-1	00a8@	-1		// FULL STOP, GREATER-THAN SIGN, <none>, DIAERESIS, <none>
 35	OEM_2		0	002f	003f	-1	-1	-1		// SOLIDUS, QUESTION MARK, <none>, <none>, <none>
 39	SPACE		0	0020	0020	0020	-1	-1		// SPACE, SPACE, SPACE, <none>, <none>
 56	OEM_102	0	005c	007c	001c	-1	-1		// REVERSE SOLIDUS, VERTICAL LINE, INFORMATION SEPARATOR FOUR, <none>, <none>
 53	DECIMAL	0	002e	002e	-1	-1	-1		// FULL STOP, FULL STOP, , , 
+
+
+DEADKEY	00b4	// ACCENT AIGU
+
+0061	00e1	// a -> á
+0065	00e9	// e -> é
+0069	00ed	// i -> í
+006f	00f3	// o -> ó
+0075	00fa	// u -> ú
+0079	00fd	// y -> ý
+0041	00c1	// A -> Á
+0045	00c9	// E -> É
+0049	00cd	// I -> Í
+004f	00d3	// O -> Ó
+0055	00da	// U -> Ú
+0059	00dd	// Y -> Ý
+0020	00b4	//   -> ´
+
+DEADKEY	0060	// ACCENT GRAVE
+
+0061	00e0	// a -> à
+0065	00e8	// e -> è
+0069	00ec	// i -> ì
+006f	00f2	// o -> ò
+0075	00f9	// u -> ù
+0041	00c0	// A -> À
+0045	00c8	// E -> È
+0049	00cc	// I -> Ì
+004f	00d2	// O -> Ò
+0055	00d9	// U -> Ù
+0020	0060	//   -> `
+
+DEADKEY	00a8	// DIAERESIS
+
+0061	00e4	// a -> ä
+0065	00eb	// e -> ë
+0069	00ef	// i -> ï
+006f	00f6	// o -> ö
+0075	00fc	// u -> ü
+0079	00ff	// y -> ÿ
+0041	00c4	// A -> Ä
+0045	00cb	// E -> Ë
+0049	00cf	// I -> Ï
+004f	00d6	// O -> Ö
+0055	00dc	// U -> Ü
+0020	00a8	//   -> ¨
+
+DEADKEY	005e	// CIRKUMFLEKS
+
+0061	00e2	// a -> â
+0065	00ea	// e -> ê
+0069	00ee	// i -> î
+006f	00f4	// o -> ô
+0075	00fb	// u -> û
+0041	00c2	// A -> Â
+0045	00ca	// E -> Ê
+0049	00ce	// I -> Î
+004f	00d4	// O -> Ô
+0055	00db	// U -> Û
+0020	005e	//   -> ^
+
+DEADKEY	007e	// TILDE
+
+0061	00e3	// a -> ã
+006f	00f5	// o -> õ
+006e	00f1	// n -> ñ
+0041	00c3	// A -> Ã
+004f	00d5	// O -> Õ
+004e	00d1	// N -> Ñ
+0020	007e	//   -> ~
 
 
 KEYNAME
@@ -154,11 +224,21 @@ KEYNAME_EXT
 5c	"Right Windows"
 5d	Application
 
+KEYNAME_DEAD
+
+00b4	"ACCENT AIGU"
+0060	"ACCENT GRAVE"
+005e	"CIRCUMFLEX ACCENT"
+00a8	"DIAERESIS"
+007e	"TILDE"
+
 
 DESCRIPTIONS
 
-0409	Danish & Polish (Programmers)
+0409	Polish & Danish (Programmers)
+
 LANGUAGENAMES
 
-0409	Danish (Denmark)
+0409	Polish (Poland)
+
 ENDKBD

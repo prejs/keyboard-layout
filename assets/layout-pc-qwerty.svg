@@ -1,12 +1,12 @@
-<svg fill="none" viewBox="0 0 831 291" width="831" height="291" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 831 324" width="831" height="324" xmlns="http://www.w3.org/2000/svg">
     <foreignObject width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml">
             <style>
                 #keyboard {
+                    font-family: Arial, sans-serif;
                     margin-top: 0px;
                     margin-bottom: 0px
                 }
-
                 #keyboard #keyboard-bg {
                     position: inherit;
                     border: solid 1px #ddd;
@@ -16,13 +16,23 @@
                     min-width: 56px;
                     min-height: 56px
                 }
-
                 #keyboard #keyboard-bg {
                     width: 811px;
                     height: 271px;
                     background-color: rgb(238, 238, 238);
                 }
-
+                #keyboard #keyboard-cfg {
+                    text-align: left;
+                    font-size: smaller;
+                    border: solid 1px #ddd;
+                    border-radius: 6px;
+                    padding: 9px;
+                }
+                #keyboard #keyboard-cfg {
+                    width: 811px;
+                    height: 14px;
+                    background-color: rgb(238, 238, 238);
+                }
                 #keyboard-bg div,
                 #keyboard-bg label {
                     position: absolute;
@@ -30,46 +40,39 @@
                     box-sizing: border-box;
                     background-clip: padding-box
                 }
-
                 .kl0>div,
                 .kl3>div,
                 .kl6>div,
                 .kl9>div {
                     text-align: left
                 }
-
                 .kl1>div,
                 .kl4>div,
                 .kl7>div,
                 .kl10>div {
                     text-align: center
                 }
-
                 .kl2>div,
                 .kl5>div,
                 .kl8>div,
                 .kl11>div {
                     text-align: right
                 }
-
                 .kl0>div,
                 .kl1>div,
                 .kl2>div {
                     vertical-align: top
                 }
-
                 .kl3>div,
                 .kl4>div,
                 .kl5>div {
                     vertical-align: middle
                 }
-
                 .kl6>div,
                 .kl7>div,
                 .kl8>div {
                     vertical-align: bottom
                 }
-
                 .kl9,
                 .kl10,
                 .kl11 {
@@ -80,83 +83,69 @@
                     white-space: nowrap;
                     overflow: hidden
                 }
-
                 .kl.ts1 {
                     font-size: 8px;
                     line-height: 1em
                 }
-
                 .kl.ts2 {
                     font-size: 10px;
                     line-height: 1em
                 }
-
                 .kl.ts3 {
                     font-size: 12px;
                     line-height: 1em
                 }
-
                 .kl.ts4 {
                     font-size: 14px;
                     line-height: 1em
                 }
-
                 .kl.ts5 {
                     font-size: 16px;
                     line-height: 1em
                 }
-
                 .kl.ts6 {
                     font-size: 18px;
                     line-height: 1em
                 }
-
                 .kl.ts7 {
                     font-size: 20px;
                     line-height: 1em
                 }
-
                 .kl.ts8 {
                     font-size: 22px;
                     line-height: 1em
                 }
-
                 .kl.ts9 {
                     font-size: 24px;
                     line-height: 1em
                 }
-
                 .kb {
                     border-radius: 5px;
                     border: 1px solid black;
                     background-color: rgb(204, 204, 204);
                     width: 54px;
                     height: 54px;
-                    display: block
+                    display: block;
                 }
-
                 .kt {
                     border-radius: 3px;
                     border: 1px solid rgba(0, 0, 0, 0.1) !important;
                     background-color: rgb(252, 252, 252);
                     width: 42px;
                     height: 42px;
-                    display: block
+                    display: block;
                 }
-
                 .kls {
                     font-family: Arial, Helvetica, sans-serif;
-                    padding: 3px;
+                    padding: 4px 3px;
                     width: 42px;
                     height: 42px;
                 }
-
                 .kl {
                     width: 36px;
                     height: 36px;
                     color: rgb(8, 8, 8);
                 }
-
                 .kl>div {
                     display: table-cell;
                     position: static !important;
@@ -164,50 +153,46 @@
                     height: 36px;
                     max-width: 36px;
                 }
-
                 .kr2 .kt,
                 .kr2 .kls {
                     top: 3px;
                 }
-
                 .kr2 .kb {
                     top: 0px
                 }
-
                 .kr3 .kt,
                 .kr3 .kls {
                     top: 57px;
                 }
-
                 .kr3 .kb {
                     top: 54px
                 }
-
                 .kr4 .kt,
                 .kr4 .kls {
                     top: 111px;
                 }
-
                 .kr4 .kb {
                     top: 108px
                 }
-
                 .kr5 .kt,
                 .kr5 .kls {
                     top: 165px;
                 }
-
                 .kr5 .kb {
                     top: 162px
                 }
-
                 .kr6 .kt,
                 .kr6 .kls {
                     top: 219px;
                 }
-
                 .kr6 .kb {
                     top: 216px
+                }
+                .dead {
+                    padding: 0 4px;
+                    border: 1px solid rgba(1, 129, 129, 0.49);
+                    border-radius: 3px;
+                    background-color: rgba(66, 204, 204, 0.32);
                 }
             </style>
 
@@ -222,11 +207,19 @@
                                 <div class="kt" style="left:   6px"></div>
                                 <div class="kls" style="left:   6px">
                                     <div class="kl kl0 ts5">
+                                        <div>~</div>
+                                    </div>
+                                    <div class="kl kl2 ts5">
                                         <div><span class="dead">~</span></div>
                                     </div>
                                     <div class="kl kl6 ts5">
+                                        <div><span class="dead">`</span></div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title="` U+0060 GRAVE ACCENT
-SHIFT: ~ U+007E TILDE">`</div>
+SHIFT: ~ U+007E TILDE
+CONTROL+MENU: ´ U+00B4 ACUTE ACCENT
+SHIFT+CONTROL+MENU: ~ U+007E TILDE"><span class="dead">´</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -325,6 +318,9 @@ CONTROL+MENU: € U+20AC EURO SIGN">€</div>
                                 <div class="kt" style="left: 330px"></div>
                                 <div class="kls" style="left: 330px">
                                     <div class="kl kl0 ts5">
+                                        <div>^</div>
+                                    </div>
+                                    <div class="kl kl2 ts5">
                                         <div><span class="dead">^</span></div>
                                     </div>
                                     <div class="kl kl6 ts5">
@@ -334,7 +330,8 @@ CONTROL+MENU: € U+20AC EURO SIGN">€</div>
                                         <div title="6 U+0036 DIGIT SIX
 SHIFT: ^ U+005E CIRCUMFLEX ACCENT
 SHIFT+CONTROL:  U+001E &lt;control&gt;
-CONTROL+MENU: ¼ U+00BC VULGAR FRACTION ONE QUARTER">¼</div>
+CONTROL+MENU: ¼ U+00BC VULGAR FRACTION ONE QUARTER
+SHIFT+CONTROL+MENU: ^ U+005E CIRCUMFLEX ACCENT">¼</div>
                                     </div>
                                 </div>
                             </div>
@@ -974,7 +971,8 @@ CONTROL:  U+001D &lt;control&gt;
 CONTROL+MENU: æ U+00E6 LATIN SMALL LETTER AE
 SHIFT+CONTROL+MENU: Æ U+00C6 LATIN CAPITAL LETTER AE
 CONTROL+MENU+CAPITAL: Æ U+00C6 LATIN CAPITAL LETTER AE
-SHIFT+CONTROL+MENU+CAPITAL: æ U+00E6 LATIN SMALL LETTER AE">æ</div></div>
+SHIFT+CONTROL+MENU+CAPITAL: æ U+00E6 LATIN SMALL LETTER AE">æ</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1233,8 +1231,12 @@ SHIFT: &lt; U+003C LESS-THAN SIGN">,</div>
                                         <div>&gt;</div>
                                     </div>
                                     <div class="kl kl6 ts5">
+                                        <div>.</div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title=". U+002E FULL STOP
-SHIFT: &gt; U+003E GREATER-THAN SIGN">.</div>
+SHIFT: &gt; U+003E GREATER-THAN SIGN
+CONTROL+MENU: ¨ U+00A8 DIAERESIS"><span class="dead">¨</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -1367,8 +1369,10 @@ CONTROL:   U+0020 SPACE"> </div>
                     </div>
 
                 </div> <!-- kbd-bg -->
+                <div id="keyboard-cfg">
+                    <span class="dead" style="margin-right: 6px;"> </span>dead key 
+                </div>
             </div>
-
         </div>
     </foreignObject>
 </svg>
