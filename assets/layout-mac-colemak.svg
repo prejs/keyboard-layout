@@ -1061,13 +1061,13 @@ CONTROL:  U+001C &lt;control&gt;">\</div>
                                         <div><span class="dead">~</span></div>
                                     </div>
                                     <div class="kl kl6 ts5">
-                                        <div><span class="dead">`</span></div>
+                                        <div><span>`</span></div>
                                     </div>
                                     <div class="kl kl8 ts5">
                                         <div title="` U+0060 GRAVE ACCENT
 SHIFT: ~ U+007E TILDE
-CONTROL+MENU: ´ U+00B4 ACUTE ACCENT
-SHIFT+CONTROL+MENU: ~ U+007E TILDE"><span class="dead">´</span></div>
+CONTROL+MENU: ` U+0060 GRAVE ACCENT
+SHIFT+CONTROL+MENU: ~ U+007E TILDE"><span class="dead">`</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -1230,8 +1230,12 @@ SHIFT+CAPITAL: m U+006D LATIN SMALL LETTER M">m</div>
                                         <div>&lt;</div>
                                     </div>
                                     <div class="kl kl6 ts5">
+                                        <div>,</div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title=", U+002C COMMA
-SHIFT: &lt; U+003C LESS-THAN SIGN">,</div>
+SHIFT: &lt; U+003C LESS-THAN SIGN
+CONTROL+MENU: ´ U+00B4 ACUTE ACCENT"><span class="dead">´</span></div>
                                     </div>
                                 </div>
                             </div>

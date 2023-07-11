@@ -7,10 +7,12 @@
 	<key>CFBundleName</key>
 	<string>dapl</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.2</string>
 	<key>KLInfo_Danish Polish Colemak</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
 		<string>dk.prejs.keyboardlayout.dapl.danishpolishcolemak</string>
@@ -20,6 +22,8 @@
 	<key>KLInfo_Danish Polish International</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
+		<key>TISIconIsTemplate</key>
 		<false/>
 		<key>TISInputSourceID</key>
 		<string>dk.prejs.keyboardlayout.dapl.danishpolishinternational</string>
