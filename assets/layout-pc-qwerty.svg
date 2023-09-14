@@ -1315,13 +1315,16 @@ SHIFT: ? U+003F QUESTION MARK">/</div>
                                     <div class="kl kl0 ts5" style="width:320px;">
                                         <div style="width:320px;max-width:320px;"> </div>
                                     </div>
-                                    <div class="kl kl4 ts4" style="width:320px;">
-                                        <div style="width:320px;max-width:320px;" title="Space">Space</div>
+                                    <div class="kl kl3 ts4" style="width:320px;">
+                                        <div style="width:320px;max-width:320px;padding-left:8px;" title="Space">Space</div>
+                                    </div>
+                                    <div class="kl kl5 ts4" style="width:320px;">
+                                        <div style="width:320px;max-width:320px;padding-right:8px" title="Non-breaking space">Non-breaking space</div>
                                     </div>
                                     <div class="kl kl6 ts5" style="width:320px;">
                                         <div style="width:320px;max-width:320px;" title="  U+0020 SPACE
 SHIFT:   U+0020 SPACE
-CONTROL:   U+0020 SPACE"> </div>
+CONTROL+MENU:   U+00A0 NON-BREAKING SPACE"> </div>
                                     </div>
                                 </div>
                             </div>

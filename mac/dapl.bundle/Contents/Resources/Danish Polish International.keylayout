@@ -196,7 +196,7 @@
             <key code="46" output="m"/>
             <key code="47" output="&#x003E;"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output=" "/>
             <key code="50" output="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -496,7 +496,7 @@
             <key code="46" output=""/>
             <key code="47" action="¨"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output="&#x00A0;"/>
             <key code="50" action="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -586,7 +586,7 @@
             <key code="46" output=""/>
             <key code="47" output=""/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output="&#x00A0;"/>
             <key code="50" action="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -676,7 +676,7 @@
             <key code="46" output=""/>
             <key code="47" output=""/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output="&#x00A0;"/>
             <key code="50" action="~"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
@@ -766,7 +766,7 @@
             <key code="46" output=""/>
             <key code="47" action="¨"/>
             <key code="48" output="&#x0009;"/>
-            <key code="49" output=""/>
+            <key code="49" output="&#x00A0;"/>
             <key code="50" action="`"/>
             <key code="51" output="&#x0008;"/>
             <key code="53" output="&#x001B;"/>
