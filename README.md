@@ -1,16 +1,17 @@
-- [Danish & Polish (Programmers) Layout](#danish---polish--programmers--layout)
-  - [PC](#pc)
-  - [Mac](#mac)
-- [Danish & Polish (Colemak) Layout](#danish---polish--colemak--layout)
-  - [PC](#pc-1)
-  - [Mac](#mac-1)
-- [Compare layouts](#compare-layouts)
+# Danish & Polish (QWERTY) Layout
 
-## Danish & Polish (Programmers) Layout
+US-standard QWERTY layout as base with a third and fourth layer available through the <kbd>AltGr</kbd>/<kbd>⌥ Option</kbd> key and <kbd>AltGr</kbd>/<kbd>⌥ Option</kbd>+<kbd>⇧ Shift</kbd>.
 
-Standard US/International layout locale variant for both danish and polish languages.
+These additional layers provide support for Danish[^1][^2] and Polish[^3][^4] languages, and subjective selection of special characters, and common mathematical symbols from Danish, Polish (Programmers) and US-International[^5][^6] layouts for both Windows and Mac.
 
-### PC
+[^1]: https://en.wikipedia.org/wiki/QWERTY#Danish
+[^2]: https://learn.microsoft.com/en-us/globalization/keyboards/kbdda
+[^3]: https://en.wikipedia.org/wiki/QWERTY#Polish
+[^4]: https://learn.microsoft.com/en-us/globalization/keyboards/kbdpl1
+[^5]: https://en.wikipedia.org/wiki/QWERTY#US-International
+[^6]: https://learn.microsoft.com/en-us/globalization/keyboards/kbdusx
+
+## PC
 
 ![](./assets/layout-pc-qwerty.svg)
 
@@ -21,7 +22,7 @@ Windows sources:
 
 For convenience builds are added to GitHub _Releases_.
 
-### Mac
+## Mac
 
 ![](./assets/layout-mac-qwerty.svg)
 
@@ -31,11 +32,11 @@ MacOS source:
 
 &nbsp;
 
-## Danish & Polish (Colemak) Layout
+# Danish & Polish (Colemak) Layout
 
-Poor man's colemak layout locale variant for both danish and polish languages.
+Poor man's Colemak layout that provides support for Danish and Polish languages.
 
-### PC
+## PC
 
 ![](./assets/layout-pc-colemak.svg)
 
@@ -46,7 +47,7 @@ Windows sources:
 
 For convenience builds are added to GitHub _Releases_.
 
-### Mac
+## Mac
 
 ![](./assets/layout-mac-colemak.svg)
 
@@ -56,7 +57,7 @@ MacOS source:
 
 &nbsp;
 
-## Compare layouts
+# Compare layouts
 
 The Colemak layout is designed to make typing more efficient and comfortable by placing the most frequent letters on the home row. Since the layout was designed for english language, the following diagrams help understand if the goal is also met in other languages.
 

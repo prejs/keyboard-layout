@@ -83,6 +83,9 @@
                     white-space: nowrap;
                     overflow: hidden
                 }
+                .kl6 {
+                    font-weight: bolder;
+                }
                 .kl.ts1 {
                     font-size: 8px;
                     line-height: 1em
@@ -327,9 +330,6 @@ CONTROL+MENU: € U+20AC EURO SIGN">€</div>
                                     <div class="kl kl0 ts5">
                                         <div>^</div>
                                     </div>
-                                    <div class="kl kl2 ts5">
-                                        <div><span class="dead">^</span></div>
-                                    </div>
                                     <div class="kl kl6 ts5">
                                         <div>6</div>
                                     </div>
@@ -337,8 +337,7 @@ CONTROL+MENU: € U+20AC EURO SIGN">€</div>
                                         <div title="6 U+0036 DIGIT SIX
 SHIFT: ^ U+005E CIRCUMFLEX ACCENT
 SHIFT+CONTROL:  U+001E &lt;control&gt;
-CONTROL+MENU: ¼ U+00BC VULGAR FRACTION ONE QUARTER
-SHIFT+CONTROL+MENU: ^ U+005E CIRCUMFLEX ACCENT">¼</div>
+CONTROL+MENU: ^ U+005E CIRCUMFLEX ACCENT"><span class="dead">^</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -352,12 +351,8 @@ SHIFT+CONTROL+MENU: ^ U+005E CIRCUMFLEX ACCENT">¼</div>
                                         <div>&amp;</div>
                                     </div>
                                     <div class="kl kl6 ts5">
-                                        <div>7</div>
-                                    </div>
-                                    <div class="kl kl8 ts5">
                                         <div title="7 U+0037 DIGIT SEVEN
-SHIFT: &amp; U+0026 AMPERSAND
-CONTROL+MENU: ½ U+00BD VULGAR FRACTION ONE HALF">½</div>
+SHIFT: &amp; U+0026 AMPERSAND">7</div>
                                     </div>
                                 </div>
                             </div>
@@ -370,13 +365,17 @@ CONTROL+MENU: ½ U+00BD VULGAR FRACTION ONE HALF">½</div>
                                     <div class="kl kl0 ts5">
                                         <div>*</div>
                                     </div>
+                                    <div class="kl kl2 ts5">
+                                        <div>°</div>
+                                    </div>
                                     <div class="kl kl6 ts5">
                                         <div>8</div>
                                     </div>
                                     <div class="kl kl8 ts5">
                                         <div title="8 U+0038 DIGIT EIGHT
 SHIFT: * U+002A ASTERISK
-CONTROL+MENU: ¾ U+00BE VULGAR FRACTION THREE QUARTERS">¾</div>
+CONTROL+MENU: · U+00B7 MIDDLE DOT
+SHIFT+CONTROL+MENU: ° U+00B0 DEGREE SIGN">·</div>
                                     </div>
                                 </div>
                             </div>
@@ -404,9 +403,17 @@ SHIFT: ( U+0028 LEFT PARENTHESIS">9</div>
                                     <div class="kl kl0 ts5">
                                         <div>)</div>
                                     </div>
+                                    <div class="kl kl2 ts5">
+                                        <div>≈</div>
+                                    </div>
                                     <div class="kl kl6 ts5">
+                                        <div title="">0</div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title="0 U+0030 DIGIT ZERO
-SHIFT: ) U+0029 RIGHT PARENTHESIS">0</div>
+SHIFT: ) U+0029 RIGHT PARENTHESIS
+CONTROL+MENU: ≠ U+2260 NOT EQUAL TO
+SHIFT+CONTROL+MENU: ≈ U+2248 ALMOST EQUAL TO">≠</div>
                                     </div>
                                 </div>
                             </div>
@@ -419,13 +426,17 @@ SHIFT: ) U+0029 RIGHT PARENTHESIS">0</div>
                                     <div class="kl kl0 ts5">
                                         <div>_</div>
                                     </div>
+                                    <div class="kl kl2 ts5">
+                                        <div>—</div>
+                                    </div>
                                     <div class="kl kl6 ts5">
-                                        <div>-</div>
+                                        <div >-</div>
                                     </div>
                                     <div class="kl kl8 ts5">
                                         <div title="- U+002D HYPHEN-MINUS
 SHIFT: _ U+005F LOW LINE
-CONTROL+MENU: ¥ U+00A5 YEN SIGN">¥</div>
+CONTROL+MENU: – U+2013 EN DASH
+SHIFT+CONTROL+MENU: — U+2014 EM DASH">–</div>
                                     </div>
                                 </div>
                             </div>
@@ -597,10 +608,14 @@ SHIFT+CAPITAL: t U+0074 LATIN SMALL LETTER T">t</div>
                                         <div>Y</div>
                                     </div>
                                     <div class="kl kl6 ts5">
+                                        <div>y</div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title="y U+0079 LATIN SMALL LETTER Y
 SHIFT: Y U+0059 LATIN CAPITAL LETTER Y
 CAPITAL: Y U+0059 LATIN CAPITAL LETTER Y
-SHIFT+CAPITAL: y U+0079 LATIN SMALL LETTER Y">y</div>
+SHIFT+CAPITAL: y U+0079 LATIN SMALL LETTER Y
+CONTROL+MENU: ¥ U+00A5 YEN SIGN">¥</div>
                                     </div>
                                 </div>
                             </div>
@@ -1016,10 +1031,18 @@ SHIFT+CONTROL+MENU+CAPITAL: ø U+00F8 LATIN SMALL LETTER O WITH STROKE">
                                     <div class="kl kl0 ts5">
                                         <div>|</div>
                                     </div>
+                                    <div class="kl kl2 ts5">
+                                        <div>‡</div>
+                                    </div>
                                     <div class="kl kl6 ts5">
+                                        <div>\</div>
+                                    </div>
+                                    <div class="kl kl8 ts5">
                                         <div title="\ U+005C REVERSE SOLIDUS
 SHIFT: | U+007C VERTICAL LINE
-CONTROL:  U+001C &lt;control&gt;">\</div>
+CONTROL:  U+001C &lt;control&gt;
+CONTROL+MENU: † U+2020 DAGGER
+SHIFT+CONTROL+MENU: ‡ U+2021 DOUBLE DAGGER">†</div>
                                     </div>
                                 </div>
                             </div>
@@ -1285,7 +1308,7 @@ SHIFT: ? U+003F QUESTION MARK">/</div>
                             </div>
                         </div>
                     </div>
-                    <!-- Ctrl Alt Space -->
+                    <!-- Ctrl Opt Space -->
                     <div class="kr6">
                         <!--div class="key">
                             <div class="kc high">
@@ -1315,7 +1338,7 @@ SHIFT: ? U+003F QUESTION MARK">/</div>
                                 <div class="kt" style="left: 114px;"></div>
                                 <div class="kls" style="left: 114px;">
                                     <div class="kl kl4 ts4">
-                                        <div>Alt</div>
+                                        <div>Opt</div>
                                     </div>
                                 </div>
                             </div>
@@ -1370,7 +1393,7 @@ CONTROL+MENU:   U+00A0 NON-BREAKING SPACE"> </div>
                                 <div class="kt" style="left: 642px;"></div>
                                 <div class="kls" style="left: 642px;">
                                     <div class="kl kl4 ts4">
-                                        <div>Alt</div>
+                                        <div>Opt</div>
                                     </div>
                                 </div>
                             </div>
